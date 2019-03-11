@@ -2,15 +2,6 @@ header .highlight, header .current a{
   color:#00ac9e;
   font-weight:bold;
 }
-/* CSS Variables */
-:root {
-  --primary: #ddd;
-  --dark: #333;
-  --light: #fff;
-  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-}
-
-
 
 body {
   background: #ccc;
@@ -62,7 +53,7 @@ img {
   color: #282828;
   text-transform: uppercase;
   font-size: 1.1rem;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
 .main-nav a:hover {
@@ -91,7 +82,7 @@ img {
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
 .showcase h1 {
@@ -112,7 +103,7 @@ img {
   display: grid;
   align-items: center;
   justify-items: center;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   padding: 1.5rem;
 }
 
@@ -139,13 +130,13 @@ img {
   background: #E0E0E0;
   text-align: center;
   padding: 1.5rem 2rem;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
 /* Info */
 .info {
   background: #E0E0E0;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(2, 1fr);
@@ -161,7 +152,7 @@ img {
 
 .portfolio img {
   width: 100%;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
 /* Footer */
@@ -236,7 +227,7 @@ aside#sidebar .question input, aside#sidebar .question textarea{
 article#text1{
   background: #E0E0E0;
   text-align: inherit;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
 .icon{
